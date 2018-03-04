@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 自定义CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+<div class="top-container">
+	<header>
+			<div class="col-md-12">
+				TODOLIST
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="body-container">
+			<div class="col-md-3">
+				<form class="form-search">
+					<input type="text" name="addList" class="input-medium search-query addTeskList" id="addTesk" placeholder="添加新任务...">
+					<button class="btn btn-success addBtn" id="addBtn" type="button">添加</button>
+				</form>
+				<!--<div class="col-md-12 classification" id="classification">-->
+					<!--<div class="col-md-4">-->
+						<!--<label class="checkbox inline">-->
+					  		<!--<input type="checkbox" id="inlineCheckbox1" value="option1">紧急-->
+						<!--</label>							-->
+					<!--</div>-->
+					<!--<div class="col-md-4">-->
+						<!--<label class="checkbox inline">-->
+						  	<!--<input type="checkbox" id="inlineCheckbox2" value="option2">一般-->
+						<!--</label>							-->
+					<!--</div>-->
+					<!--<div class="col-md-4">-->
+						<!--<label class="checkbox inline">-->
+					  		<!--<input type="checkbox" id="inlineCheckbox3" value="option3">重要-->
+						<!--</label>							-->
+					<!--</div>										-->
+				<!--</div>						-->
+				<form class="form-search">
+					<input type="text" name="addList" class="input-medium search-query" id="search-query" placeholder="查询任务...">
+					<button class="btn btn-success" id="searchBtn" type="button">查询</button>
+				</form>		
+			</div>
+			<div class="col-md-9">
+				<div class="col-md-12">
+					<div class="title-container">
+						<div class="col-md-12 unfinished">
+							未完成...
+						</div>
+						<div class="col-md-12 taskList unfinished-tesk" id="unfinished-tesk">
+
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-12">
+					<div class="title-container">
+						<div class="col-md-12 finished">
+							已完成...
+						</div>
+						<div class="col-md-12 taskList finished-tesk" id="finished-tesk">
+
+						</div>						
+					</div>	
+				</div>				
+			</div>
+		</div>
+	</nav>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script src="./js/hihi.js"></script>
+<script src="./js/todoList-localStorage.js"></script>
+</body>
+</html>
